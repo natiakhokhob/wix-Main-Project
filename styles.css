@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: end;
+}
+nav .home_link:hover{
+    color: gray !important;
+}
+nav .video_link:hover{
+    color: gray !important;
+}
+nav .contact_link:hover{
+    color: gray !important;
+}
+.name_link:hover{
+    color: #f0463f !important;
+}
+.name_link{
+    text-decoration: none;
+}
+.d-flex.align-items-center{
+    display: flex;
+    align-items: center;
+}
+.log_in:hover{
+    opacity:80%;
+}
+.photo_container{
+    background-image: url(./images/teenateen.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 1200px;
+    background-repeat: no-repeat;
+}
+.audio_container{
+    
+    width: 50%;
+    padding: 70px;
+}
+
+
+p{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal
+}
+
+.album_photo{
+    width: 100%;
+}
+.main_section,.buy-album,.available{
+    display: flex;
+    flex-direction: row;
+}
+.buy-album{
+    justify-content: space-between;
+    color:slategray
+}
+.audio_name, .brand_name{
+    font-weight: bold;
+}
+.list{
+    list-style:none;
+    counter-reset: item;
+    padding-left: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+li:hover{
+    color: gray;
+    cursor: pointer;
+}
+.available{
+   
+    width: 100%;
+    
+}
+.youtube-music,.itunes-container,.spotify-container{
+    width: 100%;
+    height: 70px;
+ 
+    
+}
+.youtube-music:hover{
+    cursor: pointer;
+    opacity: 80%;
+
+}
+.itunes-container:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+.spotify-container{
+    cursor: pointer;
+    opacity: 80%;
+}
+.youtube-logo,.spotify,.itunes{
+    
+    width: 70px;
+   }
+.spotify-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.itunes-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.youtube-music{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.youtube-logo{
+    width: 50px;
+    height: 60px;
+}
+.spotify-container{
+    display: flex;
+}
+.spotify{
+    width: 40px;
+    height: 40px;
+}
+.spotify-text{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top:12px;
+}
+footer{
+ 
+   height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.email{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    border: 1px solid white;
+}
+
+.checkbox-mark{
+    background-color: black;
+}
+.checkbox-container{
+    
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.subscribe-section{
+    display: flex;
+    gap:20px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.copy-text{
+    font-size: 10px;
+    color: grey;
+
+}
+.get, .mark-text{
+    color: gray;
+}
+.subscribe-button{
+    background-color:#f0463f;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subscribe-button:hover{
+   background-color: black;
+   border: none;
+}
+.red-bar{
+    width:50px;
+    height: 300px;
+    background-color: #f0463f;
+    position:fixed;
+    z-index:999;
+    top:150px;
+    right: 0;
+}
+.flex-icons{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.color-white{
+    color: white;
+}
+
+.red_container{
+    width: 100%;
+    height: 150px;
+    background-color: #f0463f;
+}
+.deep_sport, .urban_view,.old_building{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+}
+.urban_view{
+    background-color: #22181d;
+}
+.title_text{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    padding-left: 30px;
+}
+.video_youtube{
+    width: 70%;
+    height: 100%;
+}
+.frame_video{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video_h{
+    font-size: 20px;
+}
+.video_h_white{
+    font-size: 20px;
+    color: white;
+}
+.video_paragraph_white{
+    color: white;
+}
+.main_title{
+    position: absolute;
+    font-weight: 800;
+    font-size: 50px;
+    top:115px;
+    left: 40px;
+}
+.main_video_container{
+    position: relative;
+}
+iframe{
+    width: 100%;
+}
+.main_contact_container{
+    position: relative;
+}
+.representation_container,.fill_container{
+    height: 600px;
+
+}
+
+.representation_paragraph{
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+.lebel{
+    font-size: 20px;
+    color: #f0463f;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.email_numbers{
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    padding:40px;
+
+
+}
+.fill_container{
+    background-color: #22181d;
+    display: flex;
+   
+}
+.fill_text{
+    width: 50%;
+    
+}
+.fill_inputs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.fill_text_{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.input_group{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.full_size{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input_fill{
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid white;
+    
+}
+.input_fill:hover{
+    background-color: grey;
+    transition: 0.3s;
+}
+label{
+    color:slategray
+}
+textarea{
+    background-color: transparent;
+    border: 2px solid white;
+}
+textarea:hover{
+ background-color: gray;
+}
+.submit_button{
+    color: white;
+    background-color: #f0463f;
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+   
+}
+.submit_button:hover{
+    opacity: 80%;
+   
+}
+.button_red{
+    display: flex;
+    justify-content: end;
+}
+.pictures_container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-grow: 1;;
+    
+
+}
+.bridge{
+    height: 100%;
+    width: 25%;
+    object-fit: cover;
+    
+}
+
+
+
+
+
